@@ -9,7 +9,7 @@ workflows:
           XCODE_SCHEME: "KatalogGame"
     scripts:
       - name: install cocoapods
-        scropt: |
+        script: |
           pod install
       - name: Run tests
         script: |
