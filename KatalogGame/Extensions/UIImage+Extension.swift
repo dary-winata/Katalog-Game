@@ -17,7 +17,7 @@ class ImageCached {
 }
 
 extension UIImageView {
-    func sload(url: URL?, placeholder: UIImage? = nil) {
+    func load(url: URL?, placeholder: UIImage? = nil) {
         self.image = placeholder
         guard let url else {
             return
